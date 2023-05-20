@@ -1,0 +1,135 @@
+\hypertarget{class_game_pad_1_1_game_pad_client}{}\section{Game\+Pad.\+Game\+Pad\+Client Class Reference}
+\label{class_game_pad_1_1_game_pad_client}\index{GamePad.GamePadClient@{GamePad.GamePadClient}}
+
+
+High level client class  
+
+
+Inheritance diagram for Game\+Pad.\+Game\+Pad\+Client\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_game_pad_1_1_game_pad_client}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_game_pad_1_1_game_pad_client_ac0cca46c6a1d0fa5e6f83729bcd248f6}{Connect\+U\+DP}} ()
+\begin{DoxyCompactList}\small\item\em Opens a udp socket \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_pad_1_1_game_pad_client_ab04a4ee4e0b53ed67a210a62b7eddeba}{Send\+To\+Server\+U\+DP}} (string message)
+\begin{DoxyCompactList}\small\item\em Sends a message over U\+DP to the server \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_game_pad_1_1_game_pad_client_afca4e18b9b18482ce56f82e7f1fdd639}{Refresh\+Server\+Name\+And\+IP}} (string name)
+\begin{DoxyCompactList}\small\item\em On game disconnect resets client\+ID and server name and its ip \end{DoxyCompactList}\item 
+override void \mbox{\hyperlink{class_game_pad_1_1_game_pad_client_a73e8617c4d3db915a54b5daefd7928af}{Read\+U\+DP}} (string message, I\+P\+End\+Point ip\+End\+Point)
+\begin{DoxyCompactList}\small\item\em Invokes when a new udp message arrives \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_game_pad_1_1_game_pad_client}{Game\+Pad\+Client}} \mbox{\hyperlink{class_game_pad_1_1_game_pad_client_a88e2f429bed1bf7024fbb4ff590ce5da}{Instance}}
+\begin{DoxyCompactList}\small\item\em Singleton \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_pad_1_1_game_pad_client_aa944b22936caa875c467864758cc929a}\label{class_game_pad_1_1_game_pad_client_aa944b22936caa875c467864758cc929a}} 
+override void {\bfseries Awake} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+High level client class 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_pad_1_1_game_pad_client_ac0cca46c6a1d0fa5e6f83729bcd248f6}\label{class_game_pad_1_1_game_pad_client_ac0cca46c6a1d0fa5e6f83729bcd248f6}} 
+\index{GamePad.GamePadClient@{GamePad.GamePadClient}!ConnectUDP@{ConnectUDP}}
+\index{ConnectUDP@{ConnectUDP}!GamePad.GamePadClient@{GamePad.GamePadClient}}
+\subsubsection{\texorpdfstring{ConnectUDP()}{ConnectUDP()}}
+{\footnotesize\ttfamily void Game\+Pad.\+Game\+Pad\+Client.\+Connect\+U\+DP (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Opens a udp socket 
+
+
+
+Implements \mbox{\hyperlink{interface_enhanced_dodo_server_1_1_i_client_u_d_p}{Enhanced\+Dodo\+Server.\+I\+Client\+U\+DP}}.
+
+\mbox{\Hypertarget{class_game_pad_1_1_game_pad_client_a73e8617c4d3db915a54b5daefd7928af}\label{class_game_pad_1_1_game_pad_client_a73e8617c4d3db915a54b5daefd7928af}} 
+\index{GamePad.GamePadClient@{GamePad.GamePadClient}!ReadUDP@{ReadUDP}}
+\index{ReadUDP@{ReadUDP}!GamePad.GamePadClient@{GamePad.GamePadClient}}
+\subsubsection{\texorpdfstring{ReadUDP()}{ReadUDP()}}
+{\footnotesize\ttfamily override void Game\+Pad.\+Game\+Pad\+Client.\+Read\+U\+DP (\begin{DoxyParamCaption}\item[{string}]{message,  }\item[{I\+P\+End\+Point}]{ip\+End\+Point }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Invokes when a new udp message arrives 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & The message\\
+\hline
+{\em ip\+End\+Point} & I\+P\+End\+Point where the message came from\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_enhanced_dodo_server_1_1_client_ab3e43c3998a31c73e1f3c0f98d0bf2e9}{Enhanced\+Dodo\+Server.\+Client}}.
+
+\mbox{\Hypertarget{class_game_pad_1_1_game_pad_client_afca4e18b9b18482ce56f82e7f1fdd639}\label{class_game_pad_1_1_game_pad_client_afca4e18b9b18482ce56f82e7f1fdd639}} 
+\index{GamePad.GamePadClient@{GamePad.GamePadClient}!RefreshServerNameAndIP@{RefreshServerNameAndIP}}
+\index{RefreshServerNameAndIP@{RefreshServerNameAndIP}!GamePad.GamePadClient@{GamePad.GamePadClient}}
+\subsubsection{\texorpdfstring{RefreshServerNameAndIP()}{RefreshServerNameAndIP()}}
+{\footnotesize\ttfamily override void Game\+Pad.\+Game\+Pad\+Client.\+Refresh\+Server\+Name\+And\+IP (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+On game disconnect resets client\+ID and server name and its ip 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{class_enhanced_dodo_server_1_1_client_ad033acbfece943136bd6e7aed5cfdc8c}{Enhanced\+Dodo\+Server.\+Client}}.
+
+\mbox{\Hypertarget{class_game_pad_1_1_game_pad_client_ab04a4ee4e0b53ed67a210a62b7eddeba}\label{class_game_pad_1_1_game_pad_client_ab04a4ee4e0b53ed67a210a62b7eddeba}} 
+\index{GamePad.GamePadClient@{GamePad.GamePadClient}!SendToServerUDP@{SendToServerUDP}}
+\index{SendToServerUDP@{SendToServerUDP}!GamePad.GamePadClient@{GamePad.GamePadClient}}
+\subsubsection{\texorpdfstring{SendToServerUDP()}{SendToServerUDP()}}
+{\footnotesize\ttfamily void Game\+Pad.\+Game\+Pad\+Client.\+Send\+To\+Server\+U\+DP (\begin{DoxyParamCaption}\item[{string}]{message }\end{DoxyParamCaption})}
+
+
+
+Sends a message over U\+DP to the server 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & The message\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_enhanced_dodo_server_1_1_i_client_u_d_p}{Enhanced\+Dodo\+Server.\+I\+Client\+U\+DP}}.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_game_pad_1_1_game_pad_client_a88e2f429bed1bf7024fbb4ff590ce5da}\label{class_game_pad_1_1_game_pad_client_a88e2f429bed1bf7024fbb4ff590ce5da}} 
+\index{GamePad.GamePadClient@{GamePad.GamePadClient}!Instance@{Instance}}
+\index{Instance@{Instance}!GamePad.GamePadClient@{GamePad.GamePadClient}}
+\subsubsection{\texorpdfstring{Instance}{Instance}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_game_pad_1_1_game_pad_client}{Game\+Pad\+Client}} Game\+Pad.\+Game\+Pad\+Client.\+Instance\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Singleton 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Game\+Pad\+Client.\+cs\end{DoxyCompactItemize}

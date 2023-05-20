@@ -1,0 +1,172 @@
+{
+	"items": [
+		{
+			"key": "adminSettingsTitle",
+			"value": "Ustawienia Administratora"
+		},
+		{
+			"key": "belly_btn_a_jump",
+			"value": "skok"
+		},
+		{
+			"key": "belly_btn_down",
+			"value": "dół"
+		},
+		{
+			"key": "belly_btn_left",
+			"value": "lewo"
+		},
+		{
+			"key": "belly_btn_right",
+			"value": "prawo"
+		},
+		{
+			"key": "belly_btn_up",
+			"value": "góra"
+		},
+		{
+			"key": "belly_btn_x_useitem",
+			"value": "użyj przedmiotu"
+		},
+		{
+			"key": "city_btn_x_shoot",
+			"value": "strzelaj"
+		},
+		{
+			"key": "click_here",
+			"value": "Naciśnij Tutaj!"
+		},
+		{
+			"key": "close_btn",
+			"value": "Zamknij"
+		},
+		{
+			"key": "empatki_btn_a_sandess",
+			"value": "smutek"
+		},
+		{
+			"key": "empatki_btn_b_happiness",
+			"value": "radość"
+		},
+		{
+			"key": "empatki_btn_x_fear",
+			"value": "strach"
+		},
+		{
+			"key": "empatki_btn_y_anger",
+			"value": "złość"
+		},
+		{
+			"key": "English_en",
+			"value": "Angielski"
+		},
+		{
+			"key": "enter_name",
+			"value": "Wprowadź Nazwę"
+		},
+		{
+			"key": "gameBellyRumble",
+			"value": "Gra: Belly Rumble"
+		},
+		{
+			"key": "gameCityUnderAttack",
+			"value": "Gra: City Under Attack"
+		},
+		{
+			"key": "gameDepthsofAtlantis",
+			"value": "Gra: Depths of Atlantis"
+		},
+		{
+			"key": "gameFieldofGlory",
+			"value": "Gra: Fields of Glory"
+		},
+		{
+			"key": "gameOgrodEmocji",
+			"value": "Gra: Ogród Emocji"
+		},
+		{
+			"key": "gamePotionMaster",
+			"value": "Gra: Potion Master"
+		},
+		{
+			"key": "hideButtons_log",
+			"value": "Ukryj schematy przycisków"
+		},
+		{
+			"key": "hideButtonsLayout_log",
+			"value": "Ukryj schemat przycisków\nShemat: "
+		},
+		{
+			"key": "joistick_area",
+			"value": "obszar joysticka"
+		},
+		{
+			"key": "login",
+			"value": "Zaloguj się"
+		},
+		{
+			"key": "moba_btn_a_attack",
+			"value": "atak"
+		},
+		{
+			"key": "moba_btn_b_skill",
+			"value": "umiejętność"
+		},
+		{
+			"key": "moba_btn_x_potion",
+			"value": "użyj mikstury leczenia"
+		},
+		{
+			"key": "moba_btn_y_ulti",
+			"value": "silny atak"
+		},
+		{
+			"key": "password",
+			"value": "Hasło"
+		},
+		{
+			"key": "player_name",
+			"value": "Gracz"
+		},
+		{
+			"key": "Polish_pl",
+			"value": "Polski"
+		},
+		{
+			"key": "potion_btn_a_pick",
+			"value": "podnieś\nodłóż"
+		},
+		{
+			"key": "potion_btn_b_run",
+			"value": "biegnij"
+		},
+		{
+			"key": "potion_btn_x_cut",
+			"value": "ciąć/moździerz\nogień/mieszać"
+		},
+		{
+			"key": "SelectGamePanel",
+			"value": "Wybierz schemat przycisków gry"
+		},
+		{
+			"key": "showButtons_log",
+			"value": "Pokaż schematy przycisków"
+		},
+		{
+			"key": "showButtonsLayout_log",
+			"value": "Pokaż schematy przycisków\nSchemat: "
+		},
+		{
+			"key": "start_btn",
+			"value": "Start"
+		},
+		{
+			"key": "submarine_a",
+			"value": "złap/wypuść"
+		},
+		{
+			"key": "submarine_x",
+			"value": "odłóż narzędzie"
+		}
+	]
+}

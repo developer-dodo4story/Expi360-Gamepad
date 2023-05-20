@@ -1,0 +1,111 @@
+\hypertarget{namespace_game_pad}{}\section{Game\+Pad Namespace Reference}
+\label{namespace_game_pad}\index{GamePad@{GamePad}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_game_pad_1_1_buttons_layout}{Buttons\+Layout}}
+\begin{DoxyCompactList}\small\item\em Holds references to buttons for one layout option \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_game_pad_1_1_game_pad_client}{Game\+Pad\+Client}}
+\begin{DoxyCompactList}\small\item\em High level client class \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_game_pad_1_1_input_button}{Input\+Button}}
+\begin{DoxyCompactList}\small\item\em Custom button implementing On\+Press and On\+Release events \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_game_pad_1_1_joystick_input}{Joystick\+Input}}
+\begin{DoxyCompactList}\small\item\em Class handling joystick input, similar to Unity\+Engine.\+Input. Has funcionalities like Get\+Key, Get\+Key\+Down, Get\+Key\+Up \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_game_pad_1_1_player}{Player}}
+\begin{DoxyCompactList}\small\item\em Class managing player input and sending it to server \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_game_pad_1_1_u_i_controller_client}{U\+I\+Controller\+Client}}
+\begin{DoxyCompactList}\small\item\em Handles UI on the client \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \mbox{\hyperlink{namespace_game_pad_ad65f651e47321df25402246e8df26c37}{Buttons\+Layout\+Options}} \{ \newline
+{\bfseries Xbox\+Pad}, 
+{\bfseries Belly\+Rumble\+\_\+\+Floating\+Joystick}, 
+{\bfseries Belly\+Rumble\+\_\+\+Dynamic\+Joystick}, 
+{\bfseries Belly\+Rumble\+\_\+\+Buttons\+Only}, 
+\newline
+{\bfseries Fields\+Of\+Glory\+\_\+\+Floating\+Joystick}, 
+{\bfseries Potion\+Master\+\_\+\+Floating\+Joystick}, 
+{\bfseries City\+Under\+Attack\+\_\+\+Floating\+Joystick}, 
+{\bfseries Empatki}
+ \}
+\begin{DoxyCompactList}\small\item\em Describes possible button layout options \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{namespace_game_pad_a44223473808aa2a8e5df26ad04b2f0ec}{Action\+Button}} \{ \newline
+{\bfseries L\+\_\+\+S\+T\+I\+CK}, 
+{\bfseries R\+\_\+\+S\+T\+I\+CK}, 
+{\bfseries D\+\_\+\+P\+AD}, 
+{\bfseries S\+T\+A\+RT}, 
+\newline
+{\bfseries B\+A\+CK}, 
+{\bfseries G\+U\+I\+DE}, 
+{\bfseries T\+U\+R\+BO}, 
+{\bfseries L\+\_\+\+T\+R\+I\+G\+G\+ER}, 
+\newline
+{\bfseries R\+\_\+\+T\+R\+I\+G\+G\+ER}, 
+{\bfseries L\+\_\+\+B\+U\+M\+P\+ER}, 
+{\bfseries R\+\_\+\+B\+U\+M\+P\+ER}, 
+{\bfseries A}, 
+\newline
+{\bfseries B}, 
+{\bfseries X}, 
+{\bfseries Y}, 
+{\bfseries L\+E\+FT}, 
+\newline
+{\bfseries R\+I\+G\+HT}, 
+{\bfseries D\+O\+WN}, 
+{\bfseries UP}
+ \}
+\begin{DoxyCompactList}\small\item\em All the keys to be handled \end{DoxyCompactList}\item 
+enum \mbox{\hyperlink{namespace_game_pad_ac76b16e8c3ac78facd993c355ab2c337}{Joystick\+Key\+Code}} \{ \newline
+{\bfseries S\+T\+A\+RT}, 
+{\bfseries B\+A\+CK}, 
+{\bfseries G\+U\+I\+DE}, 
+{\bfseries T\+U\+R\+BO}, 
+\newline
+{\bfseries L\+\_\+\+B\+U\+M\+P\+ER}, 
+{\bfseries R\+\_\+\+B\+U\+M\+P\+ER}, 
+{\bfseries A}, 
+{\bfseries B}, 
+\newline
+{\bfseries X}, 
+{\bfseries Y}, 
+{\bfseries L\+E\+FT}, 
+{\bfseries R\+I\+G\+HT}, 
+\newline
+{\bfseries D\+O\+WN}, 
+{\bfseries UP}
+ \}
+\begin{DoxyCompactList}\small\item\em Key identificators \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{namespace_game_pad_a44223473808aa2a8e5df26ad04b2f0ec}\label{namespace_game_pad_a44223473808aa2a8e5df26ad04b2f0ec}} 
+\index{GamePad@{GamePad}!ActionButton@{ActionButton}}
+\index{ActionButton@{ActionButton}!GamePad@{GamePad}}
+\subsubsection{\texorpdfstring{ActionButton}{ActionButton}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{namespace_game_pad_a44223473808aa2a8e5df26ad04b2f0ec}{Game\+Pad.\+Action\+Button}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+All the keys to be handled 
+
+\mbox{\Hypertarget{namespace_game_pad_ad65f651e47321df25402246e8df26c37}\label{namespace_game_pad_ad65f651e47321df25402246e8df26c37}} 
+\index{GamePad@{GamePad}!ButtonsLayoutOptions@{ButtonsLayoutOptions}}
+\index{ButtonsLayoutOptions@{ButtonsLayoutOptions}!GamePad@{GamePad}}
+\subsubsection{\texorpdfstring{ButtonsLayoutOptions}{ButtonsLayoutOptions}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{namespace_game_pad_ad65f651e47321df25402246e8df26c37}{Game\+Pad.\+Buttons\+Layout\+Options}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+Describes possible button layout options 
+
+\mbox{\Hypertarget{namespace_game_pad_ac76b16e8c3ac78facd993c355ab2c337}\label{namespace_game_pad_ac76b16e8c3ac78facd993c355ab2c337}} 
+\index{GamePad@{GamePad}!JoystickKeyCode@{JoystickKeyCode}}
+\index{JoystickKeyCode@{JoystickKeyCode}!GamePad@{GamePad}}
+\subsubsection{\texorpdfstring{JoystickKeyCode}{JoystickKeyCode}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{namespace_game_pad_ac76b16e8c3ac78facd993c355ab2c337}{Game\+Pad.\+Joystick\+Key\+Code}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+Key identificators 
+

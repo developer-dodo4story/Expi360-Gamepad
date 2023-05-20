@@ -1,0 +1,104 @@
+\hypertarget{class_enhanced_dodo_server_1_1_u_d_p_protocol_client}{}\section{Enhanced\+Dodo\+Server.\+U\+D\+P\+Protocol\+Client Class Reference}
+\label{class_enhanced_dodo_server_1_1_u_d_p_protocol_client}\index{EnhancedDodoServer.UDPProtocolClient@{EnhancedDodoServer.UDPProtocolClient}}
+
+
+Low level class implementing a client using udp  
+
+
+Inheritance diagram for Enhanced\+Dodo\+Server.\+U\+D\+P\+Protocol\+Client\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_enhanced_dodo_server_1_1_u_d_p_protocol_client}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_enhanced_dodo_server_1_1_u_d_p_protocol_client_afdf1531cef600c0e98e0f0ec9aaa7f45}{Connect}} ()
+\begin{DoxyCompactList}\small\item\em Opens a udp socket and starts to listen \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_enhanced_dodo_server_1_1_u_d_p_protocol_client_a7e51c05ccc4f89a74fa293eebd1bde75}{Set\+Server\+IP}} (I\+P\+Address ip)
+\begin{DoxyCompactList}\small\item\em Sets the ip of the server to connect to \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_enhanced_dodo_server_1_1_u_d_p_protocol_client_af47907923f36ba9b5145dcbd3a38eb7e}{Disconnect}} ()
+\begin{DoxyCompactList}\small\item\em Closes a socket \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_enhanced_dodo_server_1_1_u_d_p_protocol_client_a75835388425e7fc29d56ca8605825ff3}{Read}} (string message, I\+P\+End\+Point ip\+End\+Point)
+\begin{DoxyCompactList}\small\item\em When a new U\+DP message arrives \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_enhanced_dodo_server_1_1_u_d_p_protocol_client_a1244ef98c96f878d8f749267359d3462}{Send}} (string message)
+\begin{DoxyCompactList}\small\item\em Send a message to the server \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Low level class implementing a client using udp 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_u_d_p_protocol_client_afdf1531cef600c0e98e0f0ec9aaa7f45}\label{class_enhanced_dodo_server_1_1_u_d_p_protocol_client_afdf1531cef600c0e98e0f0ec9aaa7f45}} 
+\index{EnhancedDodoServer.UDPProtocolClient@{EnhancedDodoServer.UDPProtocolClient}!Connect@{Connect}}
+\index{Connect@{Connect}!EnhancedDodoServer.UDPProtocolClient@{EnhancedDodoServer.UDPProtocolClient}}
+\subsubsection{\texorpdfstring{Connect()}{Connect()}}
+{\footnotesize\ttfamily void Enhanced\+Dodo\+Server.\+U\+D\+P\+Protocol\+Client.\+Connect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Opens a udp socket and starts to listen 
+
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_u_d_p_protocol_client_af47907923f36ba9b5145dcbd3a38eb7e}\label{class_enhanced_dodo_server_1_1_u_d_p_protocol_client_af47907923f36ba9b5145dcbd3a38eb7e}} 
+\index{EnhancedDodoServer.UDPProtocolClient@{EnhancedDodoServer.UDPProtocolClient}!Disconnect@{Disconnect}}
+\index{Disconnect@{Disconnect}!EnhancedDodoServer.UDPProtocolClient@{EnhancedDodoServer.UDPProtocolClient}}
+\subsubsection{\texorpdfstring{Disconnect()}{Disconnect()}}
+{\footnotesize\ttfamily void Enhanced\+Dodo\+Server.\+U\+D\+P\+Protocol\+Client.\+Disconnect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Closes a socket 
+
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_u_d_p_protocol_client_a75835388425e7fc29d56ca8605825ff3}\label{class_enhanced_dodo_server_1_1_u_d_p_protocol_client_a75835388425e7fc29d56ca8605825ff3}} 
+\index{EnhancedDodoServer.UDPProtocolClient@{EnhancedDodoServer.UDPProtocolClient}!Read@{Read}}
+\index{Read@{Read}!EnhancedDodoServer.UDPProtocolClient@{EnhancedDodoServer.UDPProtocolClient}}
+\subsubsection{\texorpdfstring{Read()}{Read()}}
+{\footnotesize\ttfamily void Enhanced\+Dodo\+Server.\+U\+D\+P\+Protocol\+Client.\+Read (\begin{DoxyParamCaption}\item[{string}]{message,  }\item[{I\+P\+End\+Point}]{ip\+End\+Point }\end{DoxyParamCaption})}
+
+
+
+When a new U\+DP message arrives 
+
+
+\begin{DoxyParams}{Parameters}
+{\em async\+Result} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_u_d_p_protocol_client_a1244ef98c96f878d8f749267359d3462}\label{class_enhanced_dodo_server_1_1_u_d_p_protocol_client_a1244ef98c96f878d8f749267359d3462}} 
+\index{EnhancedDodoServer.UDPProtocolClient@{EnhancedDodoServer.UDPProtocolClient}!Send@{Send}}
+\index{Send@{Send}!EnhancedDodoServer.UDPProtocolClient@{EnhancedDodoServer.UDPProtocolClient}}
+\subsubsection{\texorpdfstring{Send()}{Send()}}
+{\footnotesize\ttfamily void Enhanced\+Dodo\+Server.\+U\+D\+P\+Protocol\+Client.\+Send (\begin{DoxyParamCaption}\item[{string}]{message }\end{DoxyParamCaption})}
+
+
+
+Send a message to the server 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & The message\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_u_d_p_protocol_client_a7e51c05ccc4f89a74fa293eebd1bde75}\label{class_enhanced_dodo_server_1_1_u_d_p_protocol_client_a7e51c05ccc4f89a74fa293eebd1bde75}} 
+\index{EnhancedDodoServer.UDPProtocolClient@{EnhancedDodoServer.UDPProtocolClient}!SetServerIP@{SetServerIP}}
+\index{SetServerIP@{SetServerIP}!EnhancedDodoServer.UDPProtocolClient@{EnhancedDodoServer.UDPProtocolClient}}
+\subsubsection{\texorpdfstring{SetServerIP()}{SetServerIP()}}
+{\footnotesize\ttfamily void Enhanced\+Dodo\+Server.\+U\+D\+P\+Protocol\+Client.\+Set\+Server\+IP (\begin{DoxyParamCaption}\item[{I\+P\+Address}]{ip }\end{DoxyParamCaption})}
+
+
+
+Sets the ip of the server to connect to 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ip} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+U\+D\+P\+Protocol\+Client.\+cs\end{DoxyCompactItemize}

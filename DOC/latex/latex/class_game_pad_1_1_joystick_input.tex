@@ -1,0 +1,193 @@
+\hypertarget{class_game_pad_1_1_joystick_input}{}\section{Game\+Pad.\+Joystick\+Input Class Reference}
+\label{class_game_pad_1_1_joystick_input}\index{GamePad.JoystickInput@{GamePad.JoystickInput}}
+
+
+Class handling joystick input, similar to Unity\+Engine.\+Input. Has funcionalities like Get\+Key, Get\+Key\+Down, Get\+Key\+Up  
+
+
+Inheritance diagram for Game\+Pad.\+Joystick\+Input\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_game_pad_1_1_joystick_input}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_game_pad_1_1_joystick_input_a68adb847c36d3474e134de85e1908184}{Set\+Buttons\+Layout}} (\mbox{\hyperlink{class_game_pad_1_1_buttons_layout}{Buttons\+Layout}} \+\_\+buttons\+Layout)
+\begin{DoxyCompactList}\small\item\em Sets a buttons\+Layout \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \mbox{\hyperlink{class_game_pad_1_1_joystick_input_ae4523049ff819ce21db3c26e0b0982a0}{Get\+Key}} (int button\+ID)
+\begin{DoxyCompactList}\small\item\em Returns true every frame the button given by an int ID is pressed \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_game_pad_1_1_joystick_input_ae8057dc9f36ed897d7ee191608fe87c6}{Get\+Key}} (\mbox{\hyperlink{namespace_game_pad_ac76b16e8c3ac78facd993c355ab2c337}{Joystick\+Key\+Code}} key\+Code)
+\begin{DoxyCompactList}\small\item\em Returns true every frame the button given by an enum is pressed \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_game_pad_1_1_joystick_input_a9a0249a7226ddcd8262286ea78728528}{Get\+Key\+Down}} (int button\+ID)
+\begin{DoxyCompactList}\small\item\em Returns true right after the button given by an int ID was pressed \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_game_pad_1_1_joystick_input_ae60ae4f44c406c04aa018a8f78ea1e2b}{Get\+Key\+Down}} (\mbox{\hyperlink{namespace_game_pad_ac76b16e8c3ac78facd993c355ab2c337}{Joystick\+Key\+Code}} key\+Code)
+\begin{DoxyCompactList}\small\item\em Returns true right after the button given by an enum was pressed \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_game_pad_1_1_joystick_input_af9c09186831c47ce815527453bbfca61}{Get\+Key\+Up}} (int button\+ID)
+\begin{DoxyCompactList}\small\item\em Returns true right after the button given by an int ID was released \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_game_pad_1_1_joystick_input_a373bc1035227b3ed1b03600610fe3d30}{Get\+Key\+Up}} (\mbox{\hyperlink{namespace_game_pad_ac76b16e8c3ac78facd993c355ab2c337}{Joystick\+Key\+Code}} key\+Code)
+\begin{DoxyCompactList}\small\item\em Returns true right after the button given by an enum was released \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_pad_1_1_joystick_input_ad5938bcdf5127f2fa90af5420a11a2a8}\label{class_game_pad_1_1_joystick_input_ad5938bcdf5127f2fa90af5420a11a2a8}} 
+override void {\bfseries Awake} ()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_pad_1_1_joystick_input_a107da0943c95338129f695ab73a10b5b}\label{class_game_pad_1_1_joystick_input_a107da0943c95338129f695ab73a10b5b}} 
+static Variable\+Joystick {\bfseries Left\+Stick}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_game_pad_1_1_joystick_input_a521d3915aacdaab571e28c4d2e55683e}\label{class_game_pad_1_1_joystick_input_a521d3915aacdaab571e28c4d2e55683e}} 
+static Variable\+Joystick {\bfseries Right\+Stick}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_game_pad_1_1_joystick_input_ae521a1a36036e6a0cedd689c0f51575e}\label{class_game_pad_1_1_joystick_input_ae521a1a36036e6a0cedd689c0f51575e}} 
+static Variable\+Joystick {\bfseries Directional\+Pad}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_game_pad_1_1_joystick_input_a64f9fe3439637dfad7743b0326fd27ad}\label{class_game_pad_1_1_joystick_input_a64f9fe3439637dfad7743b0326fd27ad}} 
+static float? {\bfseries Left\+Trigger}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_game_pad_1_1_joystick_input_a27758969e82afbb31e4d2b457c24a9b2}\label{class_game_pad_1_1_joystick_input_a27758969e82afbb31e4d2b457c24a9b2}} 
+static float? {\bfseries Right\+Trigger}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class handling joystick input, similar to Unity\+Engine.\+Input. Has funcionalities like Get\+Key, Get\+Key\+Down, Get\+Key\+Up 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_pad_1_1_joystick_input_ae4523049ff819ce21db3c26e0b0982a0}\label{class_game_pad_1_1_joystick_input_ae4523049ff819ce21db3c26e0b0982a0}} 
+\index{GamePad.JoystickInput@{GamePad.JoystickInput}!GetKey@{GetKey}}
+\index{GetKey@{GetKey}!GamePad.JoystickInput@{GamePad.JoystickInput}}
+\subsubsection{\texorpdfstring{GetKey()}{GetKey()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static bool Game\+Pad.\+Joystick\+Input.\+Get\+Key (\begin{DoxyParamCaption}\item[{int}]{button\+ID }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Returns true every frame the button given by an int ID is pressed 
+
+
+\begin{DoxyParams}{Parameters}
+{\em button\+ID} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_pad_1_1_joystick_input_ae8057dc9f36ed897d7ee191608fe87c6}\label{class_game_pad_1_1_joystick_input_ae8057dc9f36ed897d7ee191608fe87c6}} 
+\index{GamePad.JoystickInput@{GamePad.JoystickInput}!GetKey@{GetKey}}
+\index{GetKey@{GetKey}!GamePad.JoystickInput@{GamePad.JoystickInput}}
+\subsubsection{\texorpdfstring{GetKey()}{GetKey()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static bool Game\+Pad.\+Joystick\+Input.\+Get\+Key (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_game_pad_ac76b16e8c3ac78facd993c355ab2c337}{Joystick\+Key\+Code}}}]{key\+Code }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Returns true every frame the button given by an enum is pressed 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key\+Code} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_pad_1_1_joystick_input_a9a0249a7226ddcd8262286ea78728528}\label{class_game_pad_1_1_joystick_input_a9a0249a7226ddcd8262286ea78728528}} 
+\index{GamePad.JoystickInput@{GamePad.JoystickInput}!GetKeyDown@{GetKeyDown}}
+\index{GetKeyDown@{GetKeyDown}!GamePad.JoystickInput@{GamePad.JoystickInput}}
+\subsubsection{\texorpdfstring{GetKeyDown()}{GetKeyDown()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static bool Game\+Pad.\+Joystick\+Input.\+Get\+Key\+Down (\begin{DoxyParamCaption}\item[{int}]{button\+ID }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Returns true right after the button given by an int ID was pressed 
+
+
+\begin{DoxyParams}{Parameters}
+{\em button\+ID} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_pad_1_1_joystick_input_ae60ae4f44c406c04aa018a8f78ea1e2b}\label{class_game_pad_1_1_joystick_input_ae60ae4f44c406c04aa018a8f78ea1e2b}} 
+\index{GamePad.JoystickInput@{GamePad.JoystickInput}!GetKeyDown@{GetKeyDown}}
+\index{GetKeyDown@{GetKeyDown}!GamePad.JoystickInput@{GamePad.JoystickInput}}
+\subsubsection{\texorpdfstring{GetKeyDown()}{GetKeyDown()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static bool Game\+Pad.\+Joystick\+Input.\+Get\+Key\+Down (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_game_pad_ac76b16e8c3ac78facd993c355ab2c337}{Joystick\+Key\+Code}}}]{key\+Code }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Returns true right after the button given by an enum was pressed 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key\+Code} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_pad_1_1_joystick_input_af9c09186831c47ce815527453bbfca61}\label{class_game_pad_1_1_joystick_input_af9c09186831c47ce815527453bbfca61}} 
+\index{GamePad.JoystickInput@{GamePad.JoystickInput}!GetKeyUp@{GetKeyUp}}
+\index{GetKeyUp@{GetKeyUp}!GamePad.JoystickInput@{GamePad.JoystickInput}}
+\subsubsection{\texorpdfstring{GetKeyUp()}{GetKeyUp()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static bool Game\+Pad.\+Joystick\+Input.\+Get\+Key\+Up (\begin{DoxyParamCaption}\item[{int}]{button\+ID }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Returns true right after the button given by an int ID was released 
+
+
+\begin{DoxyParams}{Parameters}
+{\em button\+ID} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_pad_1_1_joystick_input_a373bc1035227b3ed1b03600610fe3d30}\label{class_game_pad_1_1_joystick_input_a373bc1035227b3ed1b03600610fe3d30}} 
+\index{GamePad.JoystickInput@{GamePad.JoystickInput}!GetKeyUp@{GetKeyUp}}
+\index{GetKeyUp@{GetKeyUp}!GamePad.JoystickInput@{GamePad.JoystickInput}}
+\subsubsection{\texorpdfstring{GetKeyUp()}{GetKeyUp()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static bool Game\+Pad.\+Joystick\+Input.\+Get\+Key\+Up (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_game_pad_ac76b16e8c3ac78facd993c355ab2c337}{Joystick\+Key\+Code}}}]{key\+Code }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Returns true right after the button given by an enum was released 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key\+Code} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_game_pad_1_1_joystick_input_a68adb847c36d3474e134de85e1908184}\label{class_game_pad_1_1_joystick_input_a68adb847c36d3474e134de85e1908184}} 
+\index{GamePad.JoystickInput@{GamePad.JoystickInput}!SetButtonsLayout@{SetButtonsLayout}}
+\index{SetButtonsLayout@{SetButtonsLayout}!GamePad.JoystickInput@{GamePad.JoystickInput}}
+\subsubsection{\texorpdfstring{SetButtonsLayout()}{SetButtonsLayout()}}
+{\footnotesize\ttfamily void Game\+Pad.\+Joystick\+Input.\+Set\+Buttons\+Layout (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_game_pad_1_1_buttons_layout}{Buttons\+Layout}}}]{\+\_\+buttons\+Layout }\end{DoxyParamCaption})}
+
+
+
+Sets a buttons\+Layout 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+buttons\+Layout} & Layout\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Joystick\+Input.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,271 @@
+\hypertarget{class_enhanced_dodo_server_1_1_client}{}\section{Enhanced\+Dodo\+Server.\+Client Class Reference}
+\label{class_enhanced_dodo_server_1_1_client}\index{EnhancedDodoServer.Client@{EnhancedDodoServer.Client}}
+
+
+Class representing a client on the client side  
+
+
+Inheritance diagram for Enhanced\+Dodo\+Server.\+Client\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_enhanced_dodo_server_1_1_client}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_enhanced_dodo_server_1_1_client_ad033acbfece943136bd6e7aed5cfdc8c}{Refresh\+Server\+Name\+And\+IP}} (string name)
+\begin{DoxyCompactList}\small\item\em When the server name changes \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_enhanced_dodo_server_1_1_client_ab3e43c3998a31c73e1f3c0f98d0bf2e9}{Read\+U\+DP}} (string message, I\+P\+End\+Point \+\_\+ip\+End\+Point)
+\begin{DoxyCompactList}\small\item\em Invoked when a new U\+DP message arrives \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_enhanced_dodo_server_1_1_client_a17cf05d7a5f727e7eda92659dbba30a0}{Read\+T\+CP}} (string message)
+\begin{DoxyCompactList}\small\item\em Invoked when a new T\+CP message arrives \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_enhanced_dodo_server_1_1_client_a2802635f891a50ae73cfb1e16c2c8717}{udp\+Initialized}} = false
+\begin{DoxyCompactList}\small\item\em Is it possible to send and receive udp messages \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_enhanced_dodo_server_1_1_client_a34b0d7b1f3f0e9dcda5bcbbe82099748}{tcp\+Initialized}} = false
+\begin{DoxyCompactList}\small\item\em Is it possible to send and receive tcp messages \end{DoxyCompactList}\item 
+Unity\+Action$<$ I\+P\+Address $>$ \mbox{\hyperlink{class_enhanced_dodo_server_1_1_client_af61babd96563a6e7ac98d33b77b881a8}{on\+Network\+Discovery\+Complete}}
+\begin{DoxyCompactList}\small\item\em Public event invoked when client has found a server through Network Discovery \end{DoxyCompactList}\item 
+Unity\+Action \mbox{\hyperlink{class_enhanced_dodo_server_1_1_client_aa47b86ba686fead3a2e0448753735bd9}{on\+U\+D\+P\+Initialized}}
+\begin{DoxyCompactList}\small\item\em Public event invoked when udp socket has been opened \end{DoxyCompactList}\item 
+Unity\+Action \mbox{\hyperlink{class_enhanced_dodo_server_1_1_client_a0b727241a8ab4265dd0e9165877de5ee}{on\+T\+C\+P\+Initialized}}
+\begin{DoxyCompactList}\small\item\em Public event invoked when tcp socket has been opened \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_client_a0844a331dd248a28fcf9d9713a9e4a18}\label{class_enhanced_dodo_server_1_1_client_a0844a331dd248a28fcf9d9713a9e4a18}} 
+override void {\bfseries Awake} ()
+\item 
+virtual void \mbox{\hyperlink{class_enhanced_dodo_server_1_1_client_a47f19f54ab101e4d411f79930478d38b}{Init\+T\+CP}} ()
+\begin{DoxyCompactList}\small\item\em Opens tcp socket \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_enhanced_dodo_server_1_1_client_a37607b608dcd44136f90327643350fbc}{Init\+U\+DP}} ()
+\begin{DoxyCompactList}\small\item\em Opens udp socket \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_client_aab24c74f72f421ccf9a2f3b4bbe36e22}\label{class_enhanced_dodo_server_1_1_client_aab24c74f72f421ccf9a2f3b4bbe36e22}} 
+virtual void {\bfseries On\+Game\+Change} (string new\+Game)
+\item 
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_client_a97284e4c0a62786427485785f4e23def}\label{class_enhanced_dodo_server_1_1_client_a97284e4c0a62786427485785f4e23def}} 
+void {\bfseries Load\+Skin} (string game)
+\item 
+virtual void \mbox{\hyperlink{class_enhanced_dodo_server_1_1_client_a04448d0ac12be1706d4f5e3d2888c3be}{Send\+U\+DP}} (string message)
+\begin{DoxyCompactList}\small\item\em Sends a message over U\+DP \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_enhanced_dodo_server_1_1_client_a544f2325afe25591a1db8bee3902ed98}{Send\+T\+CP}} (string message)
+\begin{DoxyCompactList}\small\item\em Sends a message over T\+CP \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{namespace_enhanced_dodo_server_ab7ed9134420741255e959334cdc5207a}{Network\+Discovery\+Method}} \mbox{\hyperlink{class_enhanced_dodo_server_1_1_client_a7856b104d7501399400d83dd789bc810}{network\+Discovery\+Method}}
+\begin{DoxyCompactList}\small\item\em How to discover network \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+I\+P\+Address \mbox{\hyperlink{class_enhanced_dodo_server_1_1_client_ab0401654a3ee99fab881203f2786ecf8}{Server\+IP}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Property of the server ip address. Sets server\+IP on \mbox{\hyperlink{class_enhanced_dodo_server_1_1_u_d_p_protocol_client}{U\+D\+P\+Protocol\+Client}} \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_enhanced_dodo_server_1_1_client_a4a278205ef0a67200187552f8024b31c}{Server\+Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Name of the server \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class representing a client on the client side 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_client_a47f19f54ab101e4d411f79930478d38b}\label{class_enhanced_dodo_server_1_1_client_a47f19f54ab101e4d411f79930478d38b}} 
+\index{EnhancedDodoServer.Client@{EnhancedDodoServer.Client}!InitTCP@{InitTCP}}
+\index{InitTCP@{InitTCP}!EnhancedDodoServer.Client@{EnhancedDodoServer.Client}}
+\subsubsection{\texorpdfstring{InitTCP()}{InitTCP()}}
+{\footnotesize\ttfamily virtual void Enhanced\+Dodo\+Server.\+Client.\+Init\+T\+CP (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Opens tcp socket 
+
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_client_a37607b608dcd44136f90327643350fbc}\label{class_enhanced_dodo_server_1_1_client_a37607b608dcd44136f90327643350fbc}} 
+\index{EnhancedDodoServer.Client@{EnhancedDodoServer.Client}!InitUDP@{InitUDP}}
+\index{InitUDP@{InitUDP}!EnhancedDodoServer.Client@{EnhancedDodoServer.Client}}
+\subsubsection{\texorpdfstring{InitUDP()}{InitUDP()}}
+{\footnotesize\ttfamily virtual void Enhanced\+Dodo\+Server.\+Client.\+Init\+U\+DP (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Opens udp socket 
+
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_client_a17cf05d7a5f727e7eda92659dbba30a0}\label{class_enhanced_dodo_server_1_1_client_a17cf05d7a5f727e7eda92659dbba30a0}} 
+\index{EnhancedDodoServer.Client@{EnhancedDodoServer.Client}!ReadTCP@{ReadTCP}}
+\index{ReadTCP@{ReadTCP}!EnhancedDodoServer.Client@{EnhancedDodoServer.Client}}
+\subsubsection{\texorpdfstring{ReadTCP()}{ReadTCP()}}
+{\footnotesize\ttfamily virtual void Enhanced\+Dodo\+Server.\+Client.\+Read\+T\+CP (\begin{DoxyParamCaption}\item[{string}]{message }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Invoked when a new T\+CP message arrives 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_client_ab3e43c3998a31c73e1f3c0f98d0bf2e9}\label{class_enhanced_dodo_server_1_1_client_ab3e43c3998a31c73e1f3c0f98d0bf2e9}} 
+\index{EnhancedDodoServer.Client@{EnhancedDodoServer.Client}!ReadUDP@{ReadUDP}}
+\index{ReadUDP@{ReadUDP}!EnhancedDodoServer.Client@{EnhancedDodoServer.Client}}
+\subsubsection{\texorpdfstring{ReadUDP()}{ReadUDP()}}
+{\footnotesize\ttfamily virtual void Enhanced\+Dodo\+Server.\+Client.\+Read\+U\+DP (\begin{DoxyParamCaption}\item[{string}]{message,  }\item[{I\+P\+End\+Point}]{\+\_\+ip\+End\+Point }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Invoked when a new U\+DP message arrives 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & The message\\
+\hline
+{\em \+\_\+ip\+End\+Point} & I\+P\+End\+Point where the message came from\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_game_pad_1_1_game_pad_client_a73e8617c4d3db915a54b5daefd7928af}{Game\+Pad.\+Game\+Pad\+Client}}.
+
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_client_ad033acbfece943136bd6e7aed5cfdc8c}\label{class_enhanced_dodo_server_1_1_client_ad033acbfece943136bd6e7aed5cfdc8c}} 
+\index{EnhancedDodoServer.Client@{EnhancedDodoServer.Client}!RefreshServerNameAndIP@{RefreshServerNameAndIP}}
+\index{RefreshServerNameAndIP@{RefreshServerNameAndIP}!EnhancedDodoServer.Client@{EnhancedDodoServer.Client}}
+\subsubsection{\texorpdfstring{RefreshServerNameAndIP()}{RefreshServerNameAndIP()}}
+{\footnotesize\ttfamily virtual void Enhanced\+Dodo\+Server.\+Client.\+Refresh\+Server\+Name\+And\+IP (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+When the server name changes 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Server name\\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_game_pad_1_1_game_pad_client_afca4e18b9b18482ce56f82e7f1fdd639}{Game\+Pad.\+Game\+Pad\+Client}}.
+
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_client_a544f2325afe25591a1db8bee3902ed98}\label{class_enhanced_dodo_server_1_1_client_a544f2325afe25591a1db8bee3902ed98}} 
+\index{EnhancedDodoServer.Client@{EnhancedDodoServer.Client}!SendTCP@{SendTCP}}
+\index{SendTCP@{SendTCP}!EnhancedDodoServer.Client@{EnhancedDodoServer.Client}}
+\subsubsection{\texorpdfstring{SendTCP()}{SendTCP()}}
+{\footnotesize\ttfamily virtual void Enhanced\+Dodo\+Server.\+Client.\+Send\+T\+CP (\begin{DoxyParamCaption}\item[{string}]{message }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Sends a message over T\+CP 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & The message\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_client_a04448d0ac12be1706d4f5e3d2888c3be}\label{class_enhanced_dodo_server_1_1_client_a04448d0ac12be1706d4f5e3d2888c3be}} 
+\index{EnhancedDodoServer.Client@{EnhancedDodoServer.Client}!SendUDP@{SendUDP}}
+\index{SendUDP@{SendUDP}!EnhancedDodoServer.Client@{EnhancedDodoServer.Client}}
+\subsubsection{\texorpdfstring{SendUDP()}{SendUDP()}}
+{\footnotesize\ttfamily virtual void Enhanced\+Dodo\+Server.\+Client.\+Send\+U\+DP (\begin{DoxyParamCaption}\item[{string}]{message }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Sends a message over U\+DP 
+
+
+\begin{DoxyParams}{Parameters}
+{\em message} & The message\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_client_a7856b104d7501399400d83dd789bc810}\label{class_enhanced_dodo_server_1_1_client_a7856b104d7501399400d83dd789bc810}} 
+\index{EnhancedDodoServer.Client@{EnhancedDodoServer.Client}!networkDiscoveryMethod@{networkDiscoveryMethod}}
+\index{networkDiscoveryMethod@{networkDiscoveryMethod}!EnhancedDodoServer.Client@{EnhancedDodoServer.Client}}
+\subsubsection{\texorpdfstring{networkDiscoveryMethod}{networkDiscoveryMethod}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_enhanced_dodo_server_ab7ed9134420741255e959334cdc5207a}{Network\+Discovery\+Method}} Enhanced\+Dodo\+Server.\+Client.\+network\+Discovery\+Method\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+How to discover network 
+
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_client_af61babd96563a6e7ac98d33b77b881a8}\label{class_enhanced_dodo_server_1_1_client_af61babd96563a6e7ac98d33b77b881a8}} 
+\index{EnhancedDodoServer.Client@{EnhancedDodoServer.Client}!onNetworkDiscoveryComplete@{onNetworkDiscoveryComplete}}
+\index{onNetworkDiscoveryComplete@{onNetworkDiscoveryComplete}!EnhancedDodoServer.Client@{EnhancedDodoServer.Client}}
+\subsubsection{\texorpdfstring{onNetworkDiscoveryComplete}{onNetworkDiscoveryComplete}}
+{\footnotesize\ttfamily Unity\+Action$<$I\+P\+Address$>$ Enhanced\+Dodo\+Server.\+Client.\+on\+Network\+Discovery\+Complete}
+
+
+
+Public event invoked when client has found a server through Network Discovery 
+
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_client_a0b727241a8ab4265dd0e9165877de5ee}\label{class_enhanced_dodo_server_1_1_client_a0b727241a8ab4265dd0e9165877de5ee}} 
+\index{EnhancedDodoServer.Client@{EnhancedDodoServer.Client}!onTCPInitialized@{onTCPInitialized}}
+\index{onTCPInitialized@{onTCPInitialized}!EnhancedDodoServer.Client@{EnhancedDodoServer.Client}}
+\subsubsection{\texorpdfstring{onTCPInitialized}{onTCPInitialized}}
+{\footnotesize\ttfamily Unity\+Action Enhanced\+Dodo\+Server.\+Client.\+on\+T\+C\+P\+Initialized}
+
+
+
+Public event invoked when tcp socket has been opened 
+
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_client_aa47b86ba686fead3a2e0448753735bd9}\label{class_enhanced_dodo_server_1_1_client_aa47b86ba686fead3a2e0448753735bd9}} 
+\index{EnhancedDodoServer.Client@{EnhancedDodoServer.Client}!onUDPInitialized@{onUDPInitialized}}
+\index{onUDPInitialized@{onUDPInitialized}!EnhancedDodoServer.Client@{EnhancedDodoServer.Client}}
+\subsubsection{\texorpdfstring{onUDPInitialized}{onUDPInitialized}}
+{\footnotesize\ttfamily Unity\+Action Enhanced\+Dodo\+Server.\+Client.\+on\+U\+D\+P\+Initialized}
+
+
+
+Public event invoked when udp socket has been opened 
+
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_client_a34b0d7b1f3f0e9dcda5bcbbe82099748}\label{class_enhanced_dodo_server_1_1_client_a34b0d7b1f3f0e9dcda5bcbbe82099748}} 
+\index{EnhancedDodoServer.Client@{EnhancedDodoServer.Client}!tcpInitialized@{tcpInitialized}}
+\index{tcpInitialized@{tcpInitialized}!EnhancedDodoServer.Client@{EnhancedDodoServer.Client}}
+\subsubsection{\texorpdfstring{tcpInitialized}{tcpInitialized}}
+{\footnotesize\ttfamily bool Enhanced\+Dodo\+Server.\+Client.\+tcp\+Initialized = false}
+
+
+
+Is it possible to send and receive tcp messages 
+
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_client_a2802635f891a50ae73cfb1e16c2c8717}\label{class_enhanced_dodo_server_1_1_client_a2802635f891a50ae73cfb1e16c2c8717}} 
+\index{EnhancedDodoServer.Client@{EnhancedDodoServer.Client}!udpInitialized@{udpInitialized}}
+\index{udpInitialized@{udpInitialized}!EnhancedDodoServer.Client@{EnhancedDodoServer.Client}}
+\subsubsection{\texorpdfstring{udpInitialized}{udpInitialized}}
+{\footnotesize\ttfamily bool Enhanced\+Dodo\+Server.\+Client.\+udp\+Initialized = false}
+
+
+
+Is it possible to send and receive udp messages 
+
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_client_ab0401654a3ee99fab881203f2786ecf8}\label{class_enhanced_dodo_server_1_1_client_ab0401654a3ee99fab881203f2786ecf8}} 
+\index{EnhancedDodoServer.Client@{EnhancedDodoServer.Client}!ServerIP@{ServerIP}}
+\index{ServerIP@{ServerIP}!EnhancedDodoServer.Client@{EnhancedDodoServer.Client}}
+\subsubsection{\texorpdfstring{ServerIP}{ServerIP}}
+{\footnotesize\ttfamily I\+P\+Address Enhanced\+Dodo\+Server.\+Client.\+Server\+IP\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Property of the server ip address. Sets server\+IP on \mbox{\hyperlink{class_enhanced_dodo_server_1_1_u_d_p_protocol_client}{U\+D\+P\+Protocol\+Client}} 
+
+\mbox{\Hypertarget{class_enhanced_dodo_server_1_1_client_a4a278205ef0a67200187552f8024b31c}\label{class_enhanced_dodo_server_1_1_client_a4a278205ef0a67200187552f8024b31c}} 
+\index{EnhancedDodoServer.Client@{EnhancedDodoServer.Client}!ServerName@{ServerName}}
+\index{ServerName@{ServerName}!EnhancedDodoServer.Client@{EnhancedDodoServer.Client}}
+\subsubsection{\texorpdfstring{ServerName}{ServerName}}
+{\footnotesize\ttfamily string Enhanced\+Dodo\+Server.\+Client.\+Server\+Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Name of the server 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Client.\+cs\end{DoxyCompactItemize}

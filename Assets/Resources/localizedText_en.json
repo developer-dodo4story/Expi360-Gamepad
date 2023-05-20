@@ -1,0 +1,172 @@
+{
+	"items": [
+		{
+			"key": "adminSettingsTitle",
+			"value": "Admin Settings"
+		},
+		{
+			"key": "belly_btn_a_jump",
+			"value": "jump"
+		},
+		{
+			"key": "belly_btn_down",
+			"value": "down"
+		},
+		{
+			"key": "belly_btn_left",
+			"value": "left"
+		},
+		{
+			"key": "belly_btn_right",
+			"value": "right"
+		},
+		{
+			"key": "belly_btn_up",
+			"value": "up"
+		},
+		{
+			"key": "belly_btn_x_useitem",
+			"value": "use item"
+		},
+		{
+			"key": "city_btn_x_shoot",
+			"value": "shoot"
+		},
+		{
+			"key": "click_here",
+			"value": "Click Here!"
+		},
+		{
+			"key": "close_btn",
+			"value": "Close"
+		},
+		{
+			"key": "empatki_btn_a_sandess",
+			"value": "sadness"
+		},
+		{
+			"key": "empatki_btn_b_happiness",
+			"value": "happiness"
+		},
+		{
+			"key": "empatki_btn_x_fear",
+			"value": "fear"
+		},
+		{
+			"key": "empatki_btn_y_anger",
+			"value": "anger"
+		},
+		{
+			"key": "English_en",
+			"value": "English"
+		},
+		{
+			"key": "enter_name",
+			"value": "Enter Name..."
+		},
+		{
+			"key": "gameBellyRumble",
+			"value": "Game: Belly Rumble"
+		},
+		{
+			"key": "gameCityUnderAttack",
+			"value": "Game: City Under Attack"
+		},
+		{
+			"key": "gameDepthsofAtlantis",
+			"value": "Game: Depths of Atlantis"
+		},
+		{
+			"key": "gameFieldofGlory",
+			"value": "Game: Fields of Glory"
+		},
+		{
+			"key": "gameOgrodEmocji",
+			"value": "Game: Ogród Emocji"
+		},
+		{
+			"key": "gamePotionMaster",
+			"value": "Game: Potion Master"
+		},
+		{
+			"key": "hideButtons_log",
+			"value": "Hide buttons layout"
+		},
+		{
+			"key": "hideButtonsLayout_log",
+			"value": "Hide buttons layout\nLayout: "
+		},
+		{
+			"key": "joistick_area",
+			"value": "joystick area"
+		},
+		{
+			"key": "login",
+			"value": "LOG IN"
+		},
+		{
+			"key": "moba_btn_a_attack",
+			"value": "attack"
+		},
+		{
+			"key": "moba_btn_b_skill",
+			"value": "skill"
+		},
+		{
+			"key": "moba_btn_x_potion",
+			"value": "use health potion"
+		},
+		{
+			"key": "moba_btn_y_ulti",
+			"value": "strong attack"
+		},
+		{
+			"key": "password",
+			"value": "Password"
+		},
+		{
+			"key": "player_name",
+			"value": "Player"
+		},
+		{
+			"key": "Polish_pl",
+			"value": "Polish"
+		},
+		{
+			"key": "potion_btn_a_pick",
+			"value": "pick up\nput down"
+		},
+		{
+			"key": "potion_btn_b_run",
+			"value": "run"
+		},
+		{
+			"key": "potion_btn_x_cut",
+			"value": "cut/mortar\nfire/mix"
+		},
+		{
+			"key": "SelectGamePanel",
+			"value": "Select your game buttons layout"
+		},
+		{
+			"key": "showButtons_log",
+			"value": "Show buttons layouts"
+		},
+		{
+			"key": "showButtonsLayout_log",
+			"value": "Show buttons layouts\nLayout: "
+		},
+		{
+			"key": "start_btn",
+			"value": "Start"
+		},
+		{
+			"key": "submarine_a",
+			"value": "catch/release"
+		},
+		{
+			"key": "submarine_x",
+			"value": "put the tool away"
+		}
+	]
+}
